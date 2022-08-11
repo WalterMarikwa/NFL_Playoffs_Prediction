@@ -1,6 +1,8 @@
 # UNCC_Final_Project_Capstone
 ---
 
+Testing..
+
 #### Segment 1: Triangle Role
 ##### For our analysis of whether NFL teams will make it to the playoffs or not, we decided to use supervised machine learning.
 ##### The teams in our data will be classified as being playoff contenders or not, so we have decided to go with a decision tree model.
