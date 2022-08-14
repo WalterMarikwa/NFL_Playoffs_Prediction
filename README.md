@@ -9,7 +9,7 @@ Gathering data to analyze and calculate NFL passing and rushing team stats to co
 Tools: Python 3, Jupyter Notebook, Pg Admin4, PostgreSQL.
 
 Data source: [cleaned_offense](cleaned_offense.csv)
-  - The origin of this dataset was pulled from [NFL Table](https://www.nfl.com/stats/team-stats/offense/passing/2021/reg/all) by webscrapping. Afterwards the data was loaded into a database where we validated it and made sure it's ready for our machine learning model connection.
+  - The origin of this dataset was pulled from [NFL Table](https://www.nfl.com/stats/team-stats/offense/passing/2021/reg/all) by web scraping. Afterwards the data was loaded into a database where we validated it and made sure it's ready for our machine learning model connection.
 
 
 ## Purpose
