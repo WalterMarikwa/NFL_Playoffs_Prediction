@@ -2,7 +2,9 @@
 
 ## Overview
 
-Gathering data to analyze and calculate NFL passing and rushing team stats to come up with a fair assumption on which team is most likely going to make it into the playoffs for the 2022/23 season.
+Gathering data to analyze and calculate NFL passing and rushing team stats to come up with a fair assumption on which team is most likely going to make it into the playoffs for the 2022/23 season. 
+
+Each team member has taken on a role as outlined in the module guidelines. A slack channel has been created for team members to collaborate and update each other on the status of their contribution and ask for team member input when needed.  
 
 ## Resources
 
