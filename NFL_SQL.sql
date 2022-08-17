@@ -1,4 +1,4 @@
---Creating table for passing stats.
+-- Creating table for passing stats.
 
 CREATE TABLE NFL_PASSING_STATS (
  	Team VARCHAR (50) NOT NULL,
@@ -22,7 +22,7 @@ CREATE TABLE NFL_PASSING_STATS (
 
  select * from NFL_PASSING_STATS;
 
---Creating table for rushing stats.
+-- Creating table for rushing stats.
 
 CREATE TABLE NFL_RUSHING_STATS (
 	Team VARCHAR (50) NOT NULL,
@@ -39,4 +39,10 @@ CREATE TABLE NFL_RUSHING_STATS (
 	Year VARCHAR (20) NOT NULL
 );
 
-select * from NFL_RUSHING_STATS;
+-- Join tables
+
+select *
+from NFL_RUSHING_STATS nrs
+join NFL_PASSING_STATS nps on nrs.Team = nps.Team and nrs.Year = nps.Year;
+
+
