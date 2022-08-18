@@ -18,7 +18,7 @@ Data source: [cleaned_offense](cleaned_offense.csv)
 
 This analysis will entail the prediction of our machine learning and report a detailed outcome and the statistical findings. The teams in our data will be classified as being playoff contenders or not, so we have decided to go with a decision tree model.
 
-Our mockup, as shown below, contains the steps for a decision tree model. It will take our data (statistics) and run through each one until the team is classified as playoffs or not. After training and testing our data, we will analyze the confusion matrix to ensure that the accuracy is sufficient for us to move forward with the model as is.
+Our mockup, as shown below, contains the steps for a decision tree model. We have preprocessed the data by dropping any null rows and any columns that do not contain data suitable for the model, including non-numeric data. The decision tree model will take our data (statistics) and run through each one until the team is classified as playoffs or not. We felt this was the most appropriate model because of the step by step approach that decision trees take. The training and testing data was split into the standard 75%/25% ratio. After training and testing our data, we will analyze the confusion matrix to ensure that the accuracy is sufficient for us to move forward with the model as is.
 
 Our target accuracy is 70%. If the model does not meet our accuracy needs, then we can test on an updated model.
 
