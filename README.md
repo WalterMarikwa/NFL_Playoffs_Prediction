@@ -2,7 +2,7 @@
 
 Our presentation dashboard will be made using Tableau. Visualizations will be made from the cleaned CSV and from the results of our machine learning model. The visualizations will support the results of our machine model in predicting which NFL teams are most likely to reach the 2022 playoffs.
 
-<p>Project Presentation <a href="https://docs.google.com/presentation/d/1YjcV5z18TtbCK9gWFY45iId4PvADQ2BqwUIsLW-rMa0/edit?usp=sharing"></a>.</p>
+<p>Project Presentation <a href="https://docs.google.com/presentation/d/1YjcV5z18TtbCK9gWFY45iId4PvADQ2BqwUIsLW-rMa0/edit?usp=sharing">Project Presentation</a></p>
 
 
 ## Visualization of teams in playoffs from 2016-2021
