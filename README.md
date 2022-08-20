@@ -23,6 +23,19 @@ Our mockup, as shown below, contains the steps for a decision tree model. We hav
 Our target accuracy is 70%. If the model does not meet our accuracy needs, then we can test on an updated model.
 
 ![](https://github.com/WalterMarikwa/UNCC_Final_Project_Capstone/blob/kf_branch/images/model_mockup.png)
+---
+## Results Part 1
+- Data Preprocessing: all null rows were dropped. Columns with non-numeric data were dropped since they would not be compatible with the model.
+- Mostly offensive statistics chosen for feature selection chosen by the team. We decided as a team that we would use offensive statistics as the basis of our model because we predicted that these statistics greatly impacted whether teams made it to the playoffs. The target was 'playoffs' 0/1. 0 for not making the playoffs and 1 for making the playoffs
+- Data was split into standard 75%/25% training and testing sets
+- After testing the model on all data for teams from 2016-2021, the model gave us greater than our target, yielding 72% accuracy. With such great results, we decided to test the model with only 2021 statistics. Please see [NFL_MachineLearning](NFL_MachineLearning.ipynb) for the actual model and cofusion matrix.
+
+## Results Part 2
+- Data Preprocessing: all null rows were dropped. Columns with non-numeric data were dropped since they would not be compatible with the model.
+- We kept the features the same as part 1 to determine if the model could maintain the same level of accuracy.
+- Data was split into standard 75%/25% training and testing sets
+- Using only 2021 season statistics, the accuracy reduced to about 65%. While 65% is lower than our target, we were still satisfied with the result. The precision results for the model was 75%. Meaning that of all teams predicted to go to the playoffs, 75% of the time the model was correct. We believe that given more statistics (a better mix of offensive as well defensive statistics) the results would become even more accurate on a yearly basis. 
+
 
 ## Presentation
 
