@@ -11,7 +11,7 @@ Each team member has taken on a role as outlined in the module guidelines. A sla
 Tools: Python 3, Jupyter Notebook, Pg Admin4, PostgreSQL.
 
 Data source: [cleaned_offense](cleaned_offense.csv)
-  - The origin of this dataset was pulled from [NFL Table](https://www.nfl.com/stats/team-stats/offense/passing/2021/reg/all) by web scraping. Afterwards the data was loaded into a database where we validated it and made sure it's ready for our machine learning model connection.
+  - The origin of this dataset was pulled from [NFL Table](https://www.nfl.com/stats/team-stats/offense/passing/2021/reg/all) by web scraping. Afterwards the data was loaded into a database where we validated it and made sure it's ready for our machine learning model connection.  The database was connected to cleaned_offenseive_stats.ipynb.
 
 
 ## Purpose
@@ -23,6 +23,20 @@ Our mockup, as shown below, contains the steps for a decision tree model. We hav
 Our target accuracy is 70%. If the model does not meet our accuracy needs, then we can test on an updated model.
 
 ![](https://github.com/WalterMarikwa/UNCC_Final_Project_Capstone/blob/kf_branch/images/model_mockup.png)
+
+## Presentation
+
+Our presentation dashboard will be made using Tableau. Visualizations will be made from the cleaned CSV and from the results of our machine learning model. The visualizations will support the results of our machine model in predicting which NFL teams are most likely to reach the 2022 playoffs.
+
+<p><a href="https://docs.google.com/presentation/d/1YjcV5z18TtbCK9gWFY45iId4PvADQ2BqwUIsLW-rMa0/edit?usp=sharing">Project Presentation</a></p>
+
+
+## Visualization of teams in playoffs from 2016-2021
+<div class='tableauPlaceholder' id='viz1660861255845' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFLPlayoffAppearances2016-2021&#47;NumberofPlayoffAppearancesperTeam2016-2021&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NFLPlayoffAppearances2016-2021&#47;NumberofPlayoffAppearancesperTeam2016-2021' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFLPlayoffAppearances2016-2021&#47;NumberofPlayoffAppearancesperTeam2016-2021&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>  
+
+
+## Visualization of pass completion percentages of teams in past playoffs
+<div class='tableauPlaceholder' id='viz1660861732552' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFLPlayoffTeamsCompletion&#47;CompletionPercentagebyTeamswithPlayoffAppearances&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NFLPlayoffTeamsCompletion&#47;CompletionPercentagebyTeamswithPlayoffAppearances' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFLPlayoffTeamsCompletion&#47;CompletionPercentagebyTeamswithPlayoffAppearances&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div> 
 
 
 
