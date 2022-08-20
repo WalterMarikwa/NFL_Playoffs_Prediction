@@ -41,7 +41,7 @@ Our target accuracy is 70%. If the model does not meet our accuracy needs, then 
 
 Our presentation dashboard will be made using Tableau. Visualizations will be made from the cleaned CSV and from the results of our machine learning model. The visualizations will support the results of our machine model in predicting which NFL teams are most likely to reach the 2022 playoffs.
 
-<p><a href="https://docs.google.com/presentation/d/1YjcV5z18TtbCK9gWFY45iId4PvADQ2BqwUIsLW-rMa0/edit?usp=sharing">Project Presentation</a></p>
+<p><a href="https://docs.google.com/presentation/d/e/2PACX-1vSg-U-9dwHk_k1wFdr9XPpzWFxm01Cicvt6cRvuIo4jBsmx1vR7aQ6D1YK1qfc-0--GXfYMBODCtxY-/pub?start=false&loop=false&delayms=30000">Project Presentation</a></p>
 <p><a href="https://public.tableau.com/views/NFLPlayoffsPredictions/NFLPlayoffPredictions?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link">Tableau Story</a></p>
 
 ## Visualization of teams in playoffs from 2016-2021
